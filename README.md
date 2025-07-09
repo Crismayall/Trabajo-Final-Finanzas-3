@@ -1,35 +1,47 @@
-📈 Proyecto Final - Finanzas III
-  Trabajo para el ramo de Finanzas III. Es un cuaderno de Google Colab que valora distintos activos financieros y al final genera un reporte en PDF con todos los resultados.
 
-📄 ¿Qué hace el script?
-  El código analiza 6 activos diferentes:
+📈 Proyecto Final – Finanzas III
+Este repositorio contiene el trabajo final para el ramo Finanzas III, desarrollado en Google Colab. El objetivo es valorar distintos activos financieros utilizando métodos clásicos de finanzas y generar un reporte final en PDF con todos los resultados y gráficos.
 
-    -Bonos: Calcula su precio.
-    -Acciones: Valora usando el modelo de Gordon.
-    -Futuros: Calcula el precio teórico.
-    -Opciones: Valora Calls y Puts con Black-Scholes.
-    -Swaps: Analiza un Swap de Tasa de Interés.
-    -FRA: Calcula el pago de un Forward Rate Agreement.
+💡 ¿Qué hace este proyecto?
+El cuaderno analiza 6 instrumentos financieros:
 
-  Al final, junta todos los resultados y gráficos en un único archivo PDF.
+Bonos: Cálculo del precio con descuento de flujos.
 
-🛠️ Librerias
+Acciones: Valoración con el modelo de Gordon-Shapiro.
 
-NumPy
+Futuros: Estimación del precio teórico.
 
-Matplotlib
+Opciones: Valoración de Calls y Puts con el modelo de Black-Scholes.
 
-yfinance
+Swaps: Análisis de un Swap de Tasa de Interés.
 
-fpdf2
+FRA: Cálculo del pago de un Forward Rate Agreement.
+
+Al finalizar, el código compila todos los resultados y visualizaciones en un PDF listo para entregar o presentar. Todo automático.
+
+🛠️ Librerías utilizadas
+NumPy – para cálculos numéricos
+
+Matplotlib – para visualizaciones
+
+yfinance – para obtener datos reales del mercado
+
+fpdf2 – para generar el informe en PDF
 
 🚀 ¿Cómo usarlo?
-  1. Abrir el archivo .ipynb en Google Colab.
-  2. Ir a Entorno de ejecución -> Ejecutar todo.
-  3. Esperar a que termine y descargar el PDF desde el panel de archivos a la izquierda.
+Abre el archivo .ipynb en Google Colab.
 
-👥 Integrantes
-  - CALBULLANCA S. YASMÍN SOLEDAD
-  - GONZÁLEZ B. JAVIERA ANDREA
-  - OYARZÚN E. CRISTÓBAL IGNACIO
-  - URRIOLA T. ANAÍS ANTONIA
+Ve a Entorno de ejecución → Ejecutar todo.
+
+Espera unos segundos a que el código termine.
+
+Descarga el PDF generado desde el panel de archivos (a la izquierda).
+
+👥 Integrantes del equipo
+Calbullanca S., Yasmín Soledad
+
+González B., Javiera Andrea
+
+Oyarzún E., Cristóbal Ignacio
+
+Urriola T., Anaís Antonia
