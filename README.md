@@ -36,7 +36,7 @@ El cuaderno analiza **7 instrumentos financieros** en el siguiente orden:
 2.  Ve a `Entorno de ejecución` → `Ejecutar todo`.
 3.  Espera unos segundos a que el código termine ⏳.
 4.  El PDF generado se descarga automaticamente. ¡Y listo! 🎓
-5.  En caso de que falle la descarga, descarga el PDF generado desde el panel de archivos (a la izquierda).
+> En caso de que falle la descarga, descarga el PDF generado desde el panel de archivos (a la izquierda).
 
 ---
 
